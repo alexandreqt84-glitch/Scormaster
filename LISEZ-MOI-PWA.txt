@@ -1,0 +1,18 @@
+ScoreMaster en application Android (PWA) — 3 étapes
+
+1) Mettre le site en ligne (GitHub Pages, gratuit)
+   - github.com > New repository > nom : scoremaster > Public > Create.
+   - "uploading an existing file" : décompresse scoremaster-pwa-github.zip et envoie TOUT
+     son contenu (y compris le dossier icons) à la racine du dépôt > Commit.
+   - Settings > Pages > Deploy from a branch > main > / (root) > Save.
+   - Attends 1-2 min : adresse https://TONPSEUDO.github.io/scoremaster/
+
+2) Installer sur le téléphone
+   - Chrome > ouvre l'adresse > menu ⋮ > "Installer l'application" (ou "Ajouter à l'écran d'accueil").
+
+3) Utilisation
+   - Fonctionne sans connexion. Parties, favoris, profil et records sont enregistrés SUR LE TÉLÉPHONE.
+   - Pense à "Exporter mes parties" (Paramètres) de temps en temps comme sauvegarde.
+   - Mise à jour : change VERSION dans sw.js, renvoie les fichiers sur GitHub, rouvre l'appli 2 fois.
+
+Le dossier server/ complet (avec Docker) reste utilisable si tu veux un serveur partagé : l'appli s'y synchronise alors toute seule.
